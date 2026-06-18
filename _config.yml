@@ -1,3 +1,10 @@
 remote_theme: just-the-docs/just-the-docs
 title: আমার আর্কিটেকচার নোটবুক
 search_enabled: true
+
+
+
+
+# কাস্টম সিএসএস লোড করার জন্য
+sass:
+  style: :compressed
