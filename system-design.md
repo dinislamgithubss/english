@@ -1,6 +1,6 @@
 ---
 layout: default
-title: সিস্টেম ডিজাইন
+title: System Design
 nav_order: 2
 ---
 
