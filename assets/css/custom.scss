@@ -1,28 +1,30 @@
 ---
 ---
 
-// থিমের ডিফল্ট সাইজ ভেরিয়েবল ওভাররাইড করা
-$content-max-width: 100% !default;
-$nav-width: 260px !default;
-$nav-width-md: 220px !default;
+// থিমের সব ডিফল্ট ম্যাক্স উইডথ ভেঙে দেওয়া
+$content-max-width: 100% !important;
 
-// মেইন কন্টেনারকে ফুল স্ক্রিন করা
 .site-max-width {
   max-width: 100% !important;
-  padding-left: 16px !important;
-  padding-right: 16px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
-// মাঝখানের লেখার অংশকে পুরো জায়গা ব্যবহার করতে দেওয়া
-.site-content {
+.main-content-wrap {
   max-width: 100% !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
 }
 
 .main-content {
   max-width: 100% !important;
 }
 
-// একদম ডানের ফাঁকা অংশ (যদি থাকে) দূর করা
-.site-main {
+.site-content {
+  max-width: 100% !important;
+}
+
+// টেক্সট যেন পুরো স্ক্রিন জুড়ে ছড়াতে পারে
+.page-content {
   max-width: 100% !important;
 }
