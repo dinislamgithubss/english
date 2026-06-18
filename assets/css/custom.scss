@@ -1,30 +1,28 @@
 ---
 ---
 
-// থিমের সব ডিফল্ট ম্যাক্স উইডথ ভেঙে দেওয়া
-$content-max-width: 100% !important;
+// থিমের মূল কন্টেন্ট উইডথ ভেরিয়েবলকে সর্বোচ্চ (১০০ রেম) করে দেওয়া
+$content-max-width: 100rem !important;
 
-.site-max-width {
-  max-width: 100% !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-}
-
-.main-content-wrap {
-  max-width: 100% !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-}
-
-.main-content {
-  max-width: 100% !important;
-}
-
-.site-content {
-  max-width: 100% !important;
-}
-
-// টেক্সট যেন পুরো স্ক্রিন জুড়ে ছড়াতে পারে
+// রুট কন্টেনার এবং কন্টেন্ট সেকশনের উইডথ ফুল স্ক্রিন করা
+#main-content, 
+.main-content, 
+.site-content, 
+.site-max-width, 
+.main-content-wrap,
 .page-content {
   max-width: 100% !important;
+  width: 100% !important;
+}
+
+// স্ক্রিনের দুপাশের অতিরিক্ত ফাঁকা জায়গা (Padding) একদম কমিয়ে ফেলা
+.main-content-wrap {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  padding-top: 20px !important;
+}
+
+// বামের মেনুবারটি যেন স্ক্রিনের একদম বাম কোণায় লেগে থাকে
+.site-nav {
+  padding-left: 10px !important;
 }
