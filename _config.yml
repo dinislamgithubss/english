@@ -2,9 +2,9 @@ remote_theme: just-the-docs/just-the-docs
 title: আমার আর্কিটেকচার নোটবুক
 search_enabled: true
 
+# থিমের ভেতরের ফাঁকা জায়গা বন্ধ করার জন্য (W3Schools Style)
+just_the_docs:
+  content_max_width: "100%"
 
-
-
-# কাস্টম সিএসএস লোড করার জন্য
 sass:
   style: :compressed
